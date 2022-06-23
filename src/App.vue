@@ -11,4 +11,7 @@ import CovidMap from './components/CovidMap.vue'
   margin: 0;
   padding: 0;
 }
+html {
+  font-size: 14px;
+}
 </style>

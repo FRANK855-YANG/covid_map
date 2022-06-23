@@ -1,5 +1,12 @@
 <script setup lang="ts">
+import axios from 'axios'
+import { onMounted } from 'vue'
 
+onMounted(() => {
+  axios('/api/ug/api/wuhan/app/data/list-total?t=330415245809').then(res => {
+    console.log(res)
+  })
+})
 </script>
 
 <template>
